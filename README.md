@@ -1,11 +1,11 @@
 # Einrichten von Claude Code
 
-> Vorbereitung für das Seminar «Claude Code für Einsteiger», HWZ, Durchführung 25./26.11.2026. Version 0.2.0, Stand 14.11.2026.
+> Vorbereitung für das Seminar «Claude Code für Einsteiger», HWZ, Durchführung 25./26.11.2026. Version 0.3.0, Stand 14.11.2026.
 
 Für das Seminar brauchst Du vier Dinge:
 
 1. einen eigenen Laptop mit Installationsrechten
-2. ein Claude-Pro-Abo und ein GitHub-Konto
+2. ein Claude-Pro-Abo
 3. Claude Code, installiert und angemeldet
 4. die Editoren Obsidian und Visual Studio Code
 
@@ -17,9 +17,7 @@ Die Vorbereitung dauert ca. 30 Minuten. Erledige sie bis spätestens **Dienstag,
 
 Bring einen **privaten Laptop** mit macOS 13 oder neuer oder Windows 10 (Version 1809) oder neuer mit. Auf Firmengeräten sind Installationen und das Terminal häufig gesperrt, und Internetdienste können blockiert sein. Tablets und Chromebooks funktionieren nicht.
 
-## Schritt 2: Konten anlegen
-
-### Claude Pro
+## Schritt 2: Claude Pro abonnieren
 
 Claude Code ist im kostenlosen Claude-Konto nicht enthalten. Es braucht mindestens **Claude Pro**.
 
@@ -30,15 +28,6 @@ Claude Code ist im kostenlosen Claude-Konto nicht enthalten. Es braucht mindeste
 Du nutzt schon Claude Pro, Max oder ein Team-Konto? Dann ist dieser Teil erledigt.
 
 **Optional: Zusatzguthaben.** Das Pro-Abo hat ein Nutzungskontingent. Zwei intensive Seminartage können es ausschöpfen, danach heisst es einige Stunden warten. Wer ohne Unterbruch weiterarbeiten will, kann in den Einstellungen von claude.ai Zusatzguthaben (Usage Credits) kaufen. Für das Seminar genügen einmalig rund USD 20. Der Kauf ist freiwillig und nur nötig, wenn das Kontingent im Seminar ausgeht.
-
-### GitHub
-
-Am zweiten Tag stellst Du eine eigene Web-App online. Dafür braucht es ein kostenloses GitHub-Konto.
-
-1. Öffne https://github.com/signup und erstelle ein Konto.
-2. Bestätige Deine E-Mail-Adresse über die Mail von GitHub.
-
-Du hast schon ein GitHub-Konto? Dann kannst Du es verwenden.
 
 ## Schritt 3: Claude Code installieren
 
@@ -92,7 +81,7 @@ Erscheint eine Versionsnummer, zum Beispiel `2.1.211 (Claude Code)`, ist die Ins
 Beide Programme sind kostenlos. Einrichten musst Du nichts, das machen wir im Seminar gemeinsam.
 
 1. **Obsidian**, der Editor für Dein Personal OS: https://obsidian.md. Installieren, einmal starten, schliessen.
-2. **Visual Studio Code**, der Editor für die Web-App am zweiten Tag: https://code.visualstudio.com. Installieren, einmal starten, schliessen.
+2. **Visual Studio Code**, der Editor für die eigene Website am zweiten Tag: https://code.visualstudio.com. Installieren, einmal starten, schliessen.
 
 ## Kurztest
 
@@ -101,7 +90,7 @@ Vor dem Seminar alles einmal prüfen:
 - [ ] `claude --version` zeigt eine Versionsnummer.
 - [ ] `claude` startet ohne neue Anmeldung und antwortet auf eine Frage.
 - [ ] Obsidian und Visual Studio Code starten.
-- [ ] Du kennst die Zugangsdaten zu Claude und GitHub.
+- [ ] Du kennst die Zugangsdaten zu Claude.
 
 ## Wenn etwas nicht klappt
 
