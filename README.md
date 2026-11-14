@@ -1,13 +1,13 @@
 # Einrichten von Claude Code
 
-> Vorbereitung für das Seminar «Claude Code für Einsteiger», HWZ, Durchführung 25./26.11.2026. Version 0.3.0, Stand 14.11.2026.
+> Vorbereitung für das Seminar «Claude Code für Einsteiger», HWZ, Durchführung 25./26.11.2026. Version 0.4.0, Stand 14.11.2026.
 
 Für das Seminar brauchst Du vier Dinge:
 
 1. einen eigenen Laptop mit Installationsrechten
 2. ein Claude-Pro-Abo
 3. Claude Code, installiert und angemeldet
-4. die Editoren Obsidian und Visual Studio Code
+4. den Editor Obsidian
 
 Die Vorbereitung dauert ca. 30 Minuten. Erledige sie bis spätestens **Dienstag, 24.11.2026**.
 
@@ -76,12 +76,12 @@ Erscheint eine Versionsnummer, zum Beispiel `2.1.211 (Claude Code)`, ist die Ins
 5. Tippe als ersten Test `Hallo, was kannst du?` und drücke `Enter`. Antwortet Claude, ist alles bereit.
 6. Beende Claude Code mit `/exit`.
 
-## Schritt 4: Editoren installieren
+## Schritt 4: Obsidian installieren
 
-Beide Programme sind kostenlos. Einrichten musst Du nichts, das machen wir im Seminar gemeinsam.
+Obsidian ist der Editor für Dein Personal OS und kostenlos. Einrichten musst Du nichts, das machen wir im Seminar gemeinsam.
 
-1. **Obsidian**, der Editor für Dein Personal OS: https://obsidian.md. Installieren, einmal starten, schliessen.
-2. **Visual Studio Code**, der Editor für die eigene Website am zweiten Tag: https://code.visualstudio.com. Installieren, einmal starten, schliessen.
+1. Lade Obsidian von https://obsidian.md herunter und installiere es.
+2. Starte es einmal und schliesse es wieder.
 
 ## Kurztest
 
@@ -89,7 +89,7 @@ Vor dem Seminar alles einmal prüfen:
 
 - [ ] `claude --version` zeigt eine Versionsnummer.
 - [ ] `claude` startet ohne neue Anmeldung und antwortet auf eine Frage.
-- [ ] Obsidian und Visual Studio Code starten.
+- [ ] Obsidian startet.
 - [ ] Du kennst die Zugangsdaten zu Claude.
 
 ## Wenn etwas nicht klappt
