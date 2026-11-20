@@ -6,13 +6,13 @@ Für das Seminar brauchst Du fünf Dinge:
 
 1. einen eigenen Laptop mit Installationsrechten
 2. ein Claude-Pro-Abo
-3. die Claude Desktop App, installiert und angemeldet
-4. Claude Code im Terminal, installiert und angemeldet
-5. den Editor Obsidian
+3. Claude Code im Terminal, installiert und angemeldet
+4. den Editor Obsidian
+5. die Claude Desktop App, installiert und angemeldet
 
 Die Vorbereitung dauert ca. 30 Minuten. Erledige sie bis spätestens **Dienstag, 24.11.2026**.
 
-**Die Reihenfolge ist zwingend:** Zuerst das Abo, danach Claude Desktop und Claude Code installieren. Die Anmeldung funktioniert nur mit einem bezahlten Konto. Im Seminar kommen beide Zugänge zum Einsatz, die Desktop App und das Terminal.
+**Die Reihenfolge ist zwingend:** Zuerst das Abo, danach Claude Code und Claude Desktop installieren. Die Anmeldung funktioniert nur mit einem bezahlten Konto. Im Seminar kommen beide Zugänge zum Einsatz, die Desktop App und das Terminal.
 
 ## Schritt 1: Laptop bereitstellen
 
@@ -30,24 +30,7 @@ Du nutzt schon Claude Pro, Max oder ein Team-Konto? Dann ist dieser Teil erledig
 
 **Optional: Zusatzguthaben.** Das Pro-Abo hat ein Nutzungskontingent. Zwei intensive Seminartage können es ausschöpfen, danach heisst es einige Stunden warten. Wer ohne Unterbruch weiterarbeiten will, kann in den Einstellungen von claude.ai Zusatzguthaben (Usage Credits) kaufen. Für das Seminar genügen einmalig rund USD 20. Der Kauf ist freiwillig und nur nötig, wenn das Kontingent im Seminar ausgeht.
 
-## Schritt 3: Claude Desktop installieren
-
-Die **Claude Desktop App** enthält Claude Code in der Registerkarte **Code**. Node.js ist dafür nicht nötig. Die Installation im Terminal (Schritt 4) bleibt trotzdem nötig, weil das Seminar in beiden Umgebungen arbeitet.
-
-1. Lade die App für das eigene Betriebssystem herunter (Übersicht auf https://claude.ai/download):
-   - macOS (Intel und Apple Silicon): https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect
-   - Windows x64 (die meisten Windows-Laptops): https://claude.ai/api/desktop/win32/x64/setup/latest/redirect
-   - Windows ARM64 (nur Geräte mit ARM-Prozessor, z.B. Surface mit Snapdragon): https://claude.ai/api/desktop/win32/arm64/setup/latest/redirect
-2. Mac: Öffne die heruntergeladene Datei und ziehe **Claude** in den Ordner **Programme**. Windows: Führe den Installer aus.
-3. Starte Claude (Mac: Programme, Windows: Startmenü) und melde Dich mit dem Konto aus Schritt 2 an.
-4. Öffne in der Seitenleiste die Registerkarte **Code**. Sind nur Symbole sichtbar, zeigt das Daraufzeigen den Namen.
-5. Schliesse die App. Die erste Session folgt im Seminar.
-
-Voraussetzung: macOS 13 oder neuer, Windows 10 oder neuer. Die App aktualisiert sich selbst.
-
-Verlangt die App ein Abo, hat das Konto kein Pro-Abo: Prüfe auf claude.ai unter Einstellungen den Plan. Erscheint die Aufforderung, sich online anzumelden, schliesse die Anmeldung im Browser ab und starte die App neu.
-
-## Schritt 4: Claude Code im Terminal installieren
+## Schritt 3: Claude Code im Terminal installieren
 
 Claude Code läuft im **Terminal**. Das Terminal ist ein Fenster, in das Befehle als Text eingegeben werden. Für die Installation genügt ein einziger Befehl. Administratorrechte braucht es dafür nicht.
 
@@ -94,21 +77,38 @@ Erscheint eine Versionsnummer, zum Beispiel `2.1.211 (Claude Code)`, ist die Ins
 5. Tippe als ersten Test `Hallo, was kannst du?` und drücke `Enter`. Antwortet Claude, ist alles bereit.
 6. Beende Claude Code mit `/exit`.
 
-## Schritt 5: Obsidian installieren
+## Schritt 4: Obsidian installieren
 
 Obsidian ist der Editor für Dein Personal OS und kostenlos. Einrichten musst Du nichts, das machen wir im Seminar gemeinsam.
 
 1. Lade Obsidian von https://obsidian.md herunter und installiere es.
 2. Starte es einmal und schliesse es wieder.
 
+## Schritt 5: Claude Desktop installieren
+
+Die **Claude Desktop App** enthält Claude Code in der Registerkarte **Code**. Node.js ist dafür nicht nötig. Die Installation im Terminal (Schritt 3) bleibt trotzdem nötig, weil das Seminar in beiden Umgebungen arbeitet.
+
+1. Lade die App für das eigene Betriebssystem herunter (Übersicht auf https://claude.ai/download):
+   - macOS (Intel und Apple Silicon): https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect
+   - Windows x64 (die meisten Windows-Laptops): https://claude.ai/api/desktop/win32/x64/setup/latest/redirect
+   - Windows ARM64 (nur Geräte mit ARM-Prozessor, z.B. Surface mit Snapdragon): https://claude.ai/api/desktop/win32/arm64/setup/latest/redirect
+2. Mac: Öffne die heruntergeladene Datei und ziehe **Claude** in den Ordner **Programme**. Windows: Führe den Installer aus.
+3. Starte Claude (Mac: Programme, Windows: Startmenü) und melde Dich mit dem Konto aus Schritt 2 an.
+4. Öffne in der Seitenleiste die Registerkarte **Code**. Sind nur Symbole sichtbar, zeigt das Daraufzeigen den Namen.
+5. Schliesse die App. Die erste Session folgt im Seminar.
+
+Voraussetzung: macOS 13 oder neuer, Windows 10 oder neuer. Die App aktualisiert sich selbst.
+
+Verlangt die App ein Abo, hat das Konto kein Pro-Abo: Prüfe auf claude.ai unter Einstellungen den Plan. Erscheint die Aufforderung, sich online anzumelden, schliesse die Anmeldung im Browser ab und starte die App neu.
+
 ## Kurztest
 
 Vor dem Seminar alles einmal prüfen:
 
-- [ ] Claude Desktop startet, die Anmeldung steht, die Registerkarte **Code** ist sichtbar.
 - [ ] `claude --version` zeigt eine Versionsnummer.
 - [ ] `claude` startet ohne neue Anmeldung und antwortet auf eine Frage.
 - [ ] Obsidian startet.
+- [ ] Claude Desktop startet, die Anmeldung steht, die Registerkarte **Code** ist sichtbar.
 - [ ] Du kennst die Zugangsdaten zu Claude.
 
 ## Wenn etwas nicht klappt
@@ -144,7 +144,7 @@ Grundlage: `TEACH/_templates/prerequisites/standard-vorbereitungsauftrag.md` 0.1
 **Gegenüber Juni 2026 geändert**
 
 - Node.js entfällt. Der native Installer braucht es auf keinem System.
-- Claude Desktop neu als Schritt 3 (Version 0.5.0, 20.11.2026): Das Seminar arbeitet in der Desktop App und im Terminal. Offen: Ob Git for Windows für die Desktop App nötig ist, nennt die Anthropic-Doku nicht; es bleibt wegen des Terminals Pflicht. Screenshot-Platz `02-claude-desktop-code-tab` ist im `index.html` markiert.
+- Claude Desktop neu als Schritt 5 (Version 0.5.0, 20.11.2026): Das Seminar arbeitet in der Desktop App und im Terminal. Offen: Ob Git for Windows für die Desktop App nötig ist, nennt die Anthropic-Doku nicht; es bleibt wegen des Terminals Pflicht. Screenshot-Platz `02-claude-desktop-code-tab` ist im `index.html` markiert.
 - Git for Windows neu als Pflicht auf Windows, damit Claude Code mit Bash arbeitet und sich die Befehle im Kurs auf Mac und Windows gleichen.
 - Kein GitHub-Konto: Die Website am zweiten Tag entsteht rein lokal, ohne Veröffentlichung (Entscheid Ralph 14.11.2026, Einsteigerkurs). Obsidian bleibt Voraussetzung.
 - Kein Visual Studio Code: Für den Einsteigerkurs nicht nötig (Entscheid Ralph 14.11.2026).
