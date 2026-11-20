@@ -111,13 +111,6 @@ Vor dem Seminar alles einmal prüfen:
 - [ ] Claude Desktop startet, die Anmeldung steht, die Registerkarte **Code** ist sichtbar.
 - [ ] Du kennst die Zugangsdaten zu Claude.
 
-## Wenn etwas nicht klappt
-
-- **`claude` wird nicht gefunden** (Mac: «command not found», Windows: «not recognized»): Terminal schliessen und neu öffnen. Hilft das nicht, `claude doctor` ausprobieren oder die Hilfe von Anthropic lesen: https://code.claude.com/docs/en/troubleshoot-install
-- **Windows: Fehlermeldung «The token '&&' is not a valid statement separator» oder «'irm' is not recognized»:** Du bist im falschen Fenster. Den Befehl in PowerShell eingeben, nicht in der Eingabeaufforderung (CMD).
-- **Anmeldung schlägt fehl oder Claude Code verlangt ein Abo:** Das Konto hat kein Pro-Abo. Auf claude.ai unter Einstellungen den Plan prüfen.
-- **Etwas anderes:** Melde Dich bei Ralph Hutter, ralph.hutter@fh-hwz.ch. Bring Deinen Laptop auf jeden Fall mit, wir lösen den Rest am Morgen vor Beginn.
-
 ---
 
 ## Intern: Checkliste Dozent 25./26.11.2026 (nicht an Teilnehmende)
