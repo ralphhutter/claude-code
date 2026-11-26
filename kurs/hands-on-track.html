@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>Hands-on Track · Claude Code für Einsteiger · v0.1.0</title>
+<title>Hands-on Track · Claude Code für Einsteiger · v0.2.0</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -287,7 +287,7 @@
   <div class="logo" role="img" aria-label="HWZ Hochschule für Wirtschaft Zürich"></div>
   <h1>Hands-on Track</h1>
   <h2>Claude Code für Einsteiger. Eigene Skills und eine erste App bauen.</h2>
-  <p class="meta">HWZ · 26. November 2026 · Ralph Hutter · v0.1.0</p>
+  <p class="meta">HWZ · 26. November 2026 · Ralph Hutter · v0.2.0</p>
 </section>
 
 <section class="slide">
@@ -305,7 +305,7 @@
   <div class="grid g3">
     <div class="card"><h3>Werkzeuge</h3><p>Claude Code Desktop und Terminal<br>Obsidian nur als Leseansicht für Markdown</p></div>
     <div class="card"><h3>Arbeitsordner</h3><p>Kursordner verbunden<br>Ordner <span class="chip">dev</span>, darin ein Unterordner pro App</p></div>
-    <div class="card"><h3>Webserver</h3><p>Claude Code startet den lokalen Webserver selbst, ohne Eingriff von Hand</p></div>
+    <div class="card"><h3>Ausgabe</h3><p>Eine einzelne HTML-Datei, die sich per Doppelklick oder <span class="chip">open</span> im Browser öffnet, ohne Server</p></div>
   </div>
 </section>
 
@@ -325,7 +325,7 @@
   <rect class="bx" x="490" y="40" width="190" height="100" rx="6"/>
   <text class="ch" x="506" y="64">STATION 3</text>
   <text class="ttl" x="506" y="90">Apps</text>
-  <text class="sub" x="506" y="112">Styleguide, shadcn, Dashboard</text>
+  <text class="sub" x="506" y="112">Styleguide, Pico CSS, Dashboard</text>
   <rect class="bx2" x="730" y="40" width="160" height="100" rx="6"/>
   <text class="ttlw" x="746" y="90">Brain Dashboard</text>
   <text class="ttlw" x="746" y="112" style="font-weight:400;font-size:12px">im eigenen Style</text>
@@ -441,21 +441,22 @@
 </section>
 
 <section class="slide">
-  <h2>Framework und shadcn/ui</h2>
+  <h2>Framework und Pico CSS</h2>
   <ul>
     <li>Ein Framework liefert fertige Bausteine für Oberflächen</li>
-    <li>shadcn/ui ist ein solches Framework für Webseiten</li>
-    <li>Gezeigt wird es an einer einzigen Komponente: der Karte</li>
-    <li>Claude Code setzt das Projekt im Ordner <span class="chip">dev</span> auf und startet den Server selbst</li>
+    <li>Pico CSS v2 ist ein solches Framework: ein einziger Link auf ein CDN, keine Installation</li>
+    <li>Sauberes HTML genügt, die Karte ist ein <span class="chip">article</span> ohne Klassen</li>
+    <li>Farben, Schrift und Radius sind CSS-Variablen, dort kommt der Styleguide hinein</li>
+    <li>Als Alternative mit mehr Komponenten und Raster: Bootstrap 5</li>
   </ul>
 </section>
 
 <section class="slide">
-  <h2>Skill «Neue App mit shadcn»</h2>
+  <h2>Skill «Neue App»</h2>
   <div class="grid g3">
-    <div class="card"><h3>Ordner anlegen</h3><p>Ein neuer Unterordner im Ordner <span class="chip">dev</span></p></div>
-    <div class="card"><h3>Style übersetzen</h3><p>Der Styleguide wird zu Theme-Variablen</p></div>
-    <div class="card"><h3>Server starten</h3><p>Claude Code startet den lokalen Webserver</p></div>
+    <div class="card"><h3>Datei anlegen</h3><p><span class="chip">dashboard.html</span> in einem neuen Unterordner im Ordner <span class="chip">dev</span></p></div>
+    <div class="card"><h3>Style übersetzen</h3><p>Die Werte des Styleguides werden zu CSS-Variablen</p></div>
+    <div class="card"><h3>Im Browser öffnen</h3><p>Kein Server nötig, Öffnen mit <span class="chip">open dashboard.html</span></p></div>
   </div>
 </section>
 
@@ -464,7 +465,7 @@
   <div class="note"><p class="k">Auftrag</p><p>Ein Dashboard für das Second Brain bauen, mit Karten für To-dos, Bookmarks und Notizen. Die Inhalte kommen aus den Markdown-Dateien, die Gestaltung aus dem eigenen Styleguide.</p></div>
   <ul>
     <li>Ausgangspunkt: Second Brain mit Markdown für To-dos und Bookmarks</li>
-    <li>Neue App mit dem Skill «Neue App mit shadcn» anlegen</li>
+    <li>Neue App mit dem Skill «Neue App» anlegen</li>
     <li>Karten aus den Markdown-Dateien füllen</li>
   </ul>
 </section>
@@ -517,7 +518,7 @@
 </div>
 
 <div class="mark" role="img" aria-label="HWZ"></div>
-<div class="foot">Hands-on Track · Claude Code für Einsteiger · v0.1.0</div>
+<div class="foot">Hands-on Track · Claude Code für Einsteiger · v0.2.0</div>
 <div class="hud">
   <button id="prev" aria-label="Vorherige Folie">&#8592;</button>
   <span class="n"><span id="cur">1</span>&thinsp;/&thinsp;<span id="tot">1</span></span>
